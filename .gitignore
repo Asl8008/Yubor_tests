@@ -1,0 +1,30 @@
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Secrets & Environment variables
+.env
+*.env
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDEs
+.idea/
+.vscode/
+
+# Test outputs & screenshots
+screenshots/
+allure-results/
+allure-report/
+screen.xml
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
